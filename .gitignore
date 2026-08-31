@@ -1,0 +1,29 @@
+# Data and personal information
+*.xlsx
+*.xls
+*.xlsm
+*.csv
+*.parquet
+data/
+input/
+output/
+
+# Secrets and environments
+.env
+.env.*
+secrets/
+.streamlit/secrets.toml
+.venv/
+.tmp/
+venv/
+
+# Python and tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local platform files
+.DS_Store
+Thumbs.db
